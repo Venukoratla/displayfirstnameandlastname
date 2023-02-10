@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.first-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  color: #dd1264;
+  height: 30px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.third-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.name {
+  height: 100px;
+  width: 120px;
+  background-color: #fddddb;
+  padding: 20px;
+  color: #000000;
+  font-family: Roboto;
+  font-weight: bold;
+  border-radius: 10px;
+}
